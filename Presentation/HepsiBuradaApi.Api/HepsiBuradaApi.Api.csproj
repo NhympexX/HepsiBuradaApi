@@ -16,11 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Infrastructure\HepsiBuradaApi.Persistance\HepsiBuradaApi.Persistance.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\HepsiBuradaApi.Persistance\HepsiBuradaApi.Persistance.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
